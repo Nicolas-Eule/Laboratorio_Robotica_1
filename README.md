@@ -4,8 +4,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:04041A,50:14213D,100:0A4D68&text=Laboratorio%20Rob%C3%B3tica%201&fontColor=E0FBFC&fontAlign=50&fontAlignY=30&desc=Decoraci%C3%B3n%20de%20Tortas%20Virtuales%20%E2%80%A2%20ABB%20IRB%20140%20%E2%80%A2%20RAPID&descAlign=50&descAlignY=60" alt="header" />
 </p>
 
-<h1 align="center">🤖 LABORATORIO ROBÓTICA 1 – DECORACIÓN DE TORTAS VIRTUALES</h1>
-
 <p align="center">
   <img src="https://img.shields.io/badge/RAPID-ABB%20IRC5-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/RobotStudio-2025-blue?style=for-the-badge" />
