@@ -130,11 +130,6 @@ Se diseñó una caja que simula un pastel, con dimensiones de 15 cm × 15 cm × 
 
 ---
 
-## Diagrama de flujo de acciones del robot
-<p align="center">
-  <img src="assets/img/NOMBRE-EXACTO-DIAGRAMA-FLUJO.EXT" width="860" alt="Diagrama de flujo: inicio, selección de WObj, ejecución de trayectorias, IO, retorno a HOME y mantenimiento">
-</p>
-
 
 ## Diagrama de flujo de acciones del robot
 Se presenta el diagrama de flujo del proceso desarrollado para garantizar el cumplimiento de los requerimientos del proyecto.
@@ -143,15 +138,24 @@ Se presenta el diagrama de flujo del proceso desarrollado para garantizar el cum
 </p>
 
 ## Descripción de las funciones utilizadas 
-Para efectuar correctamente el diagrama de flujo de procedimiento previamente mostrado se hacen uso de funciones de condicionales y movimiento.
+Para efectuar correctamente el diagrama de flujo de procedimiento previamente mostrado se hacen uso de funciones de operadores lógicos y movimiento.
 ### Funciones de movimiento
 <ul style="list-style-type: square;">
   <li>MoveJ: El robot se mueve de forma curva, calculando internamente los ángulos de cada articulación para llegar al punto final lo más rápido posible, sin preocuparse de seguir una línea recta       en el espacio donde la herramienta del robot hace una trayectoria curvada o arqueada, porque cada eje gira a distinta velocidad para optimizar el movimiento. </li>
   <li>MoveL: El robot mueve su herramienta en línea recta desde el punto actual hasta el punto destino donde la punta del robot (el TCP) sigue una trayectoria recta en el espacio cartesiano (XYZ)</li>
+  <li>Target: Un target representa una posición y orientación específica del efector final del robot (TCP) dentro del espacio de trabajo al que el robot debe llegar o pasar durante su movimiento. </li>
+  <li>Path: Es la ruta o secuencia de movimientos que el robot sigue entre varios targets donde internamente esta compuesta por funciones MoveJ,MoveL y MoveC. </li>
 </ul>
 
-### Funciones condicionales
-Para las funciones de 
+### Funciones de operadores lógicos
+Para este tipo de funciones se usaron  WHILE TRUE DO , AND , IF y ELSEIF donde estas permiten la secuencia de procedimiento al poner decisiones que son tomadas con las entradas digitales DI_01 y DI_02
+<ul style="list-style-type: square;">
+  <li> WHILE TRUE DO: La condición siempre es verdadera, por lo tanto, el ciclo nunca termina  a menos que dentro haya un comando que lo interrumpa </li>
+  <li> AND: Combina dos condiciones lógicas; ambas deben ser verdaderas para que el resultado sea verdadero</li>
+  <li> IF: Permite ejecutar una parte del código solo si se cumple una condición (si es verdadera).</li>
+  <li> ELSEIF: Analiz a cada IF que contenga el bloque de comando donde si la primera (IF) no se cumple, se revisa la siguiente (ELSEIF), y así sucesivamente</li>
+  
+</ul>
 
 ## Video de la práctica  
 Se muestra a continuación el video de la aplicación realizada en **RobotStudio**, efectuada en el **laboratorio LabSIR**.  
