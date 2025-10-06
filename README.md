@@ -81,7 +81,7 @@ La decoración consiste en la ejecución de trayectorias previamente diseñadas 
 
 Todo el sistema se programa en la sección RAPID de RobotStudio, donde también se integran entradas y salidas digitales para controlar la ejecución de procedimientos y la señalización mediante indicadores luminosos.Todo esto al final para ser cargados al robot por medio del flexpendan.
 
-### Herramienta de trabajo  flangee 
+### Herramienta de trabajo  flange
 La herramienta de trabajo fue diseñada en la aplicación de modelado 3D Autodesk Inventor, tomando como base el soporte o flange del eslabón 6 del robot y usando la informacion de dimensionamiento ofrecida por ABB, el cual sirve como punto de acoplamiento para la herramienta.El diseño contempla la posibilidad de realizar cambios del marcador de manera sencilla, garantizando versatilidad durante la operación.
 
 Posteriormente, la herramienta fue fabricada mediante impresión 3D utilizando material PLA. En el interior del soporte del marcador se incorporó un resorte, que permite un margen de tolerancia al momento de ejecutar el dibujo, evitando daños o presiones excesivas sobre la superficie.
