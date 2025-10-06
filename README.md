@@ -81,15 +81,29 @@ La decoración consiste en la ejecución de trayectorias previamente diseñadas 
 
 Todo el sistema se programa en la sección RAPID de RobotStudio, donde también se integran entradas y salidas digitales para controlar la ejecución de procedimientos y la señalización mediante indicadores luminosos.Todo esto al final para ser cargados al robot por medio del flexpendan.
 
-### Herramienta de trabajo  flanche 
+### Herramienta de trabajo  flangee 
 La herramienta de trabajo fue diseñada en la aplicación de modelado 3D Autodesk Inventor, tomando como base el soporte o flange del eslabón 6 del robot y usando la informacion de dimensionamiento ofrecida por ABB, el cual sirve como punto de acoplamiento para la herramienta.El diseño contempla la posibilidad de realizar cambios del marcador de manera sencilla, garantizando versatilidad durante la operación.
 
 Posteriormente, la herramienta fue fabricada mediante impresión 3D utilizando material PLA. En el interior del soporte del marcador se incorporó un resorte, que permite un margen de tolerancia al momento de ejecutar el dibujo, evitando daños o presiones excesivas sobre la superficie.
 
 Cabe resaltar que, durante el desarrollo del proyecto, inicialmente se trabajó en una herramienta diseñada por dos integrantes del equipo; sin embargo, posteriormente se integró un tercer miembro, quien ya contaba con su propia herramienta diseñada.A continuación, se presenta el desarrollo de ambas propuestas, destacando que la herramienta seleccionada como definitiva para el proyecto fue la diseñada por el tercer integrante.
 
+#### Imagenes de la herramienta 1 (Construida y Modelo CAD)
+<p align="center">
+  <img src="https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Herramienta%201.1.png" width="40%">
+  <img src="https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Herramienta%201.png" width="50%">
+</p>
+
+#### Imagenes de la herramienta 2 (Construida y Modelo CAD)
+<p align="center">
+    <img src="https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Herramienta%202.1.png" width="50%">
+  <img src="https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Herramienta%202.png" width="40%">
+</p>
+
 ### Pastel - superficie de dibujo
 Se diseñó una caja que simula un pastel, con dimensiones de 15 cm × 15 cm × 15 cm, su caras laterales e inferior fueron construidas en madera, mientras que la cara superior se elaboró en acrílico, sirviendo como superficie de dibujo.En el interior de la caja se incorporó un contrapeso, con el fin de evitar balanceos o movimientos indeseados durante la ejecución del trazado por parte del robot.
+
+[Imagen de la Caja-Pastel construida](https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Caja_Pastel.png)
 
 
 ## Diagrama de flujo de acciones del robot
