@@ -19,6 +19,15 @@
 
 ---
 
+### 🛰️ Descripción general
+
+Este repositorio implementa el **Laboratorio No. 1** de *Robótica Industrial 2025-II*: automatización de la **decoración de una torta virtual** con un robot **ABB IRB 140**, programado en **RAPID** y simulado en **RobotStudio**.  
+Incluye trayectorias (MOVJ, MOVL, MOVC), calibración de herramienta (TCP/Tooldata), *workobjects* y control de **IO digitales** (luz indicadora y banda transportadora).
+
+---
+
+---
+
 ## 🧑‍🚀 Equipo
 
 <!-- 🔹 PRIMERO: Animaciones con los NOMBRES (estilo tecnológico) -->
@@ -40,14 +49,5 @@
 - Manuel Felipe Carranza Montenegro — mcarranza@unal.edu.co  
 - Pedro Fabián Cárdenas Herrera — pfcardenash@unal.edu.co
 
----
 
-### 🛰️ Descripción general
-
-Este repositorio implementa el **Laboratorio No. 1** de *Robótica Industrial 2025-II*: automatización de la **decoración de una torta virtual** con un robot **ABB IRB 140**, programado en **RAPID** y simulado en **RobotStudio**.  
-Incluye trayectorias (MOVJ, MOVL, MOVC), calibración de herramienta (TCP/Tooldata), *workobjects* y control de **IO digitales** (luz indicadora y banda transportadora).
-
----
-
-## ⚙️ Estructura
 
