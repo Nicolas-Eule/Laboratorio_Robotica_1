@@ -204,6 +204,8 @@ Segunda herramienta la cual es fue la definitiva a trabajar
 - Disparo por **DI_01** → inicio de rutina; **MOVL/MOVC** para letras y logotipo.
 - **DO_01** (luz indicadora) y **DO_02** (variador/banda) según estado.
 - **Retorno a HOME** al finalizar y **pose de mantenimiento** por **DI_02**.
+- Decoración con Logo del grupo de investigación Kyma: 
+[kyma-un.github.io/](https://kyma-un.github.io/)
 
 ---
 
