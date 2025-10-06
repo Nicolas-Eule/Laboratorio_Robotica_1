@@ -70,17 +70,9 @@ Incluye trayectorias (MOVJ, MOVL, MOVC), calibración de herramienta (TCP/Toolda
 <!-- ===== FIN BLOQUE ANIMACIONES EQUIPO ===== -->
 
 # Laboratorio No. 01 - Robótica Industrial: Trayectorias, Entradas y Salidas Digitales.
-
 ## Introduccion
 El proyecto consiste en realizar el dibujo de los nombres de los integrantes del equipo sobre una superficie plana (una caja), incluyendo además un elemento decorativo libre, que en este caso corresponde al logotipo del grupo de investigación Kyma.Toda la secuencia se ejecuta desde la posición Home del robot ABB, con la caja siendo transportada por una banda transportadora que se detiene en una posición previamente definida, permitiendo así la ejecución precisa del dibujo programado.Finalmente, se establece una posición de acceso seguro para el operario, la cual facilita el mantenimiento o el cambio de herramienta, garantizando comodidad y seguridad durante la intervención del robot.
 
-<!-- Imagen de contexto del flujo general -->
-<p align="center">
-  <!-- Reemplaza NOMBRE-EXACTO-INTRO.EXT por tu archivo real (ej: intro_banda_home.png) -->
-  <img src="assets/img/NOMBRE-EXACTO-INTRO.EXT" width="820" alt="Flujo general: banda → HOME → decorado → HOME → mantenimiento">
-</p>
-
----
 
 ## Descripción de la solución planteada
 Para la decoración del pastel se propone el uso de una herramienta capaz de sostener un marcador borrable, la cual permitirá realizar los trazos solicitados —nombres y logotipo— sobre una caja de madera con superficie superior de acrílico.
@@ -89,18 +81,6 @@ La decoración consiste en la ejecución de trayectorias previamente diseñadas 
 
 Todo el sistema se programa en la sección RAPID de RobotStudio, donde también se integran entradas y salidas digitales para controlar la ejecución de procedimientos y la señalización mediante indicadores luminosos.Todo esto al final para ser cargados al robot por medio del flexpendan.
 
-<!-- Vistas en RobotStudio y parámetros de movimiento -->
-| Trayectorias en RobotStudio | Parámetros de movimiento |
-|---|---|
-| <img src="assets/img/NOMBRE-EXACTO-RS-TRAYECTORIAS.EXT" width="430" alt="Paths MOVL/MOVC continuos en RobotStudio"> | <img src="assets/img/NOMBRE-EXACTO-RS-PARAMETROS.EXT" width="430" alt="Velocidades (v100–v1000) y zonas (z10)"> |
-
-<!-- Panel de IO -->
-<p align="center">
-  <img src="assets/img/NOMBRE-EXACTO-PANEL-IO.EXT" width="760" alt="Panel de IO en IRC5: asignación y prueba de DI/DO">
-</p>
-
----
-
 ### Herramienta de trabajo  flanche 
 La herramienta de trabajo fue diseñada en la aplicación de modelado 3D Autodesk Inventor, tomando como base el soporte o flange del eslabón 6 del robot y usando la informacion de dimensionamiento ofrecida por ABB, el cual sirve como punto de acoplamiento para la herramienta.El diseño contempla la posibilidad de realizar cambios del marcador de manera sencilla, garantizando versatilidad durante la operación.
 
@@ -108,27 +88,8 @@ Posteriormente, la herramienta fue fabricada mediante impresión 3D utilizando m
 
 Cabe resaltar que, durante el desarrollo del proyecto, inicialmente se trabajó en una herramienta diseñada por dos integrantes del equipo; sin embargo, posteriormente se integró un tercer miembro, quien ya contaba con su propia herramienta diseñada.A continuación, se presenta el desarrollo de ambas propuestas, destacando que la herramienta seleccionada como definitiva para el proyecto fue la diseñada por el tercer integrante.
 
-<!-- Galería de herramienta: CAD + impresión 3D + detalle resorte -->
-<p align="center">
-  <img src="assets/img/NOMBRE-EXACTO-CAD-FLANGE.EXT" width="45%" alt="Modelo CAD del flange y soporte de marcador (Inventor)">
-  <img src="assets/img/NOMBRE-EXACTO-IMPRESION3D.EXT" width="45%" alt="Flange impreso en 3D (PLA)">
-</p>
-
-<p align="center">
-  <img src="assets/img/NOMBRE-EXACTO-DETALLE-RESORTE.EXT" width="560" alt="Detalle del resorte interno para tolerancia de contacto">
-</p>
-
----
-
 ### Pastel - superficie de dibujo
 Se diseñó una caja que simula un pastel, con dimensiones de 15 cm × 15 cm × 15 cm, su caras laterales e inferior fueron construidas en madera, mientras que la cara superior se elaboró en acrílico, sirviendo como superficie de dibujo.En el interior de la caja se incorporó un contrapeso, con el fin de evitar balanceos o movimientos indeseados durante la ejecución del trazado por parte del robot.
-
-<!-- Caja-pastel: vista externa e interior con contrapeso -->
-| Vista de la caja-pastel | Interior con contrapeso |
-|---|---|
-| <img src="assets/img/NOMBRE-EXACTO-CAJA-VISTA.EXT" width="430" alt="Caja-pastel: vista general (madera + tapa acrílica)"> | <img src="assets/img/NOMBRE-EXACTO-CAJA-INTERIOR.EXT" width="430" alt="Interior de la caja con contrapeso"> |
-
----
 
 
 ## Diagrama de flujo de acciones del robot
