@@ -121,10 +121,14 @@ Para este tipo de funciones se usaron  WHILE TRUE DO , AND , IF y ELSEIF donde e
 ## Codigo Rapid
 Para la ejecución del procedimiento se desarrolló el código de funcionamiento en lenguaje RAPID, utilizado por RobotStudio para el control y movimiento del robot.  [Hacer clic aquí para ver el código RAPID](https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/rapid/RAPID_CODE.m)
 
+## Plano de planta de los elementos de trabajo
+El plano de planta se encuentra en el siguiente enlace. [Hacer clic aquí para ver el plano de planta en RobotStudio](https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Plano_de_planta.png)
+
+
 ## Video de la práctica  
 Se muestra a continuación el video de la aplicación realizada en **RobotStudio**, efectuada en el **laboratorio LabSIR**.  
 
-## Plano de planta de los elementos de trabajo
+
 
 <p align="center">
   <!-- Miniatura de YouTube con enlace al video -->
