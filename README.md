@@ -67,5 +67,14 @@ Incluye trayectorias (MOVJ, MOVL, MOVC), calibración de herramienta (TCP/Toolda
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2400&pause=600&color=39D353&center=true&vCenter=true&width=1000&repeat=false&lines=Pedro+Fabi%C3%A1n+C%C3%A1rdenas+Herrera+%E2%80%94+pfcardenash%40unal.edu.co" alt="Pedro Fabián Cárdenas Herrera">
 </p>
 
+<!-- ===== FIN BLOQUE ANIMACIONES EQUIPO ===== -->
 
+<!-- (Opcional) Resumen en lista de respaldo justo debajo -->
+**Integrantes**  
+- Jorge Nicolás Garzón Acevedo — jngarzona@unal.du.co  
+- Johan Camilo Patiño Mogollón — jopatinom@unal.edu.co  
+- Gabriel Eduardo Bojaca Munar — gbojaca@unal.edu.co  
 
+**Docentes**  
+- Manuel Felipe Carranza Montenegro — mcarranza@unal.edu.co  
+- Pedro Fabián Cárdenas Herrera — pfcardenash@unal.edu.co
