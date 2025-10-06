@@ -52,5 +52,3 @@
 - **Trayectorias**: generación de letras y logotipo con **MoveL / MoveC**; suavizado con **zonas (z10)** y **velocidades (v100–v1000)**.
 - **I/O virtuales**: prueba de **DI_01/DI_02** y **DO_01/DO_02** (luz y banda).
 - **Mensajería** en FlexPendant (TPWrite) y **retorno a HOME** para fin de ciclo.
-
-> Consejo: si la miniatura no carga en alta resolución, cambia `hqdefault.jpg` por `maxresdefault.jpg`.
