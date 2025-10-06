@@ -1,7 +1,7 @@
 # 🎬 Videos del Laboratorio – Robótica Industrial
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2400&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Aqu%C3%AD+puedes+visualizar%3A;Video+de+la+pr%C3%A1ctica+(laboratorio);Video+de+la+simulaci%C3%B3n+(RobotStudio)" alt="Animación videos">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2400&pause=900&color=00E5FF&center=true&vCenter=true&width=900&repeat=true&lines=Aqu%C3%AD+puedes+visualizar%3A;Video+de+la+pr%C3%A1ctica+(laboratorio);Video+de+la+simulaci%C3%B3n+(RobotStudio)" alt="Animación videos">
 </p>
 
 ---
@@ -10,8 +10,7 @@
 
 <p align="center">
   <a href="https://youtu.be/gwcXK-_C6pA?si=X1zZq3yhsR2akUh2">
-    <!-- Usa maxresdefault si existe; si no, cambia a hqdefault.jpg -->
-    <img src="https://img.youtube.com/vi/gwcXK-_C6pA/maxresdefault.jpg" alt="Ver video de la práctica" />
+    <img src="https://img.youtube.com/vi/gwcXK-_C6pA/hqdefault.jpg" alt="Ver video de la práctica" />
   </a>
 </p>
 
@@ -21,46 +20,37 @@
   </a>
 </p>
 
-### 🧩 Descripción del contenido del video
+### 🧩 Descripción (práctica)
 **Grabación real en laboratorio** ejecutando la secuencia programada en RAPID sobre un **ABB IRB 140 / IRC5**:
-
-- **Homing**: posicionamiento inicial seguro (HOME) y verificación de **TCP/Tooldata**.
-- **WorkObject** y parámetros de movimiento: trayectorias continuas.
-- **Evento de inicio** por **DI_01** → arranque de la rutina de decorado.
-- **Trayectorias**: letras y decoración con **MOVL/MOVC**, continuidad de trazo.
-- **Salidas digitales**:
-  - **DO_01** → luz indicadora.
-  - **DO_02** → banda/variador al finalizar.
-- **Retorno a HOME** y **modo mantenimiento** vía **DI_02**.
+- **Homing** y verificación de **TCP/Tooldata** del marcador.
+- Selección de **WorkObject** (superficie de decorado) y parámetros de movimiento.
+- Disparo por **DI_01** → inicio de rutina; **MOVL/MOVC** para letras y logotipo.
+- **DO_01** (luz indicadora) y **DO_02** (variador/banda) según estado.
+- **Retorno a HOME** al finalizar y **pose de mantenimiento** por **DI_02**.
 
 ---
 
 ## 🧪 Video de la simulación (RobotStudio)
 
 <p align="center">
-  <a href="https://youtu.be/etMuTp3UyoM">
-    <!-- Usa maxresdefault si existe; si no, cambia a hqdefault.jpg -->
-    <img src="https://img.youtube.com/vi/etMuTp3UyoM/maxresdefault.jpg" alt="Ver video de la simulación en RobotStudio" />
+  <a href="https://youtu.be/w56WQL795BM">
+    <img src="https://img.youtube.com/vi/w56WQL795BM/hqdefault.jpg" alt="Ver video de la simulación en RobotStudio" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/etMuTp3UyoM">
-    <img src="https://img.shields.io/badge/Ver%20simulaci%C3%B3n%20en%20YouTube-%F0%9F%94%B4-blue?style=for-the-badge" alt="Ver simulación en YouTube">
+  <a href="https://youtu.be/w56WQL795BM">
+    <img src="https://img.shields.io/badge/Ver%20en%20YouTube-%F0%9F%94%B4-blue?style=for-the-badge" alt="Ver en YouTube">
   </a>
 </p>
 
-### 🛰️ Descripción del contenido de la simulación
-**Simulación completa en RobotStudio** de la estación **ABB IRB 140 / IRC5**, que refleja la lógica usada en el laboratorio:
+### 🧩 Descripción (simulación)
+**Simulación en RobotStudio** de la misma célula y lógica:
+- **Estación** con IRB 140, herramienta tipo marcador y **banda transportadora**.
+- **Tooldata/TCP**: calibración/ajuste del extremo de herramienta (comparación con CAD).
+- **WorkObjects**: definición del plano de trabajo sobre la “torta/caja”.
+- **Trayectorias**: generación de letras y logotipo con **MoveL / MoveC**; suavizado con **zonas (z10)** y **velocidades (v100–v1000)**.
+- **I/O virtuales**: prueba de **DI_01/DI_02** y **DO_01/DO_02** (luz y banda).
+- **Mensajería** en FlexPendant (TPWrite) y **retorno a HOME** para fin de ciclo.
 
-- **Estación y referencia**: carga del proyecto `.rspag`, sistema mecánico y **WObj** del área de trabajo.
-- **Herramienta**: definición de **Tooldata** (marcador) y verificación de **TCP** contra geometría.
-- **Puntos y trayectorias**: definición/edición de *targets*; ejecución con **MoveJ/MoveL/MoveC**; zonas y velocidades.
-- **Secuenciador**: rutina `main` con **HOME**, ejecución de letras y decoración, y retorno seguro.
-- **IO digitales**: simulación de **DI/DO** para inicio, luz indicadora y control de banda (variador simulado).
-- **Replicación de trazos**: misma secuencia en cuadrantes equivalentes del **WObj** (consistencia geométrica).
-- **Pruebas y validación**: vista de trayectorias, tiempos de ciclo y comprobación de colisiones.
-
-> Consejo: si la miniatura `maxresdefault.jpg` no carga en tu README, cambia la URL de la imagen a `hqdefault.jpg`.
-
----
+> Consejo: si la miniatura no carga en alta resolución, cambia `hqdefault.jpg` por `maxresdefault.jpg`.
