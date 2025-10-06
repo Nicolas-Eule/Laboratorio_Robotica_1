@@ -69,5 +69,21 @@ Incluye trayectorias (MOVJ, MOVL, MOVC), calibración de herramienta (TCP/Toolda
 
 <!-- ===== FIN BLOQUE ANIMACIONES EQUIPO ===== -->
 
+# Laboratorio No. 01 - Robótica Industrial: Trayectorias, Entradas y Salidas Digitales.
+## Introduccion
+El proyecto consiste en realizar el dibujo de los nombres de los integrantes del equipo sobre una superficie plana (una caja), incluyendo además un elemento decorativo libre, que en este caso corresponde al logotipo del grupo de investigación Kyma.Toda la secuencia se ejecuta desde la posición Home del robot ABB, con la caja siendo transportada por una banda transportadora que se detiene en una posición previamente definida, permitiendo así la ejecución precisa del dibujo programado.Finalmente, se establece una posición de acceso seguro para el operario, la cual facilita el mantenimiento o el cambio de herramienta, garantizando comodidad y seguridad durante la intervención del robot.
 
 
+## Descripción de la solución planteada
+Para la decoración del pastel se propone el uso de una herramienta capaz de sostener un marcador borrable, la cual permitirá realizar los trazos solicitados —nombres y logotipo— sobre una caja de madera con superficie superior de tablero.
+
+La decoración consiste en la ejecución de trayectorias previamente diseñadas en la aplicación de simulación RobotStudio de ABB, donde se configuran tanto las trayectorias como el comportamiento dinámico del robot (posición y velocidad).Asimismo, se implementa una posición de mantenimiento en la que el robot se aleja del área de dibujo, permitiendo realizar de manera segura cambios o reparaciones en la herramienta de trabajo.
+
+Todo el sistema se programa en la sección RAPID de RobotStudio, donde también se integran entradas y salidas digitales para controlar la ejecución de procedimientos y la señalización mediante indicadores luminosos.Todo esto al final para ser cargados al robot por medio del flexpendan.
+
+### Herramienta de trabajo  flanche 
+La herramienta de trabajo fue diseñada en la aplicación de modelado 3D Autodesk Inventor, tomando como base el soporte o flange del eslabón 6 del robot y usando la informacion de dimensionamiento ofrecida por ABB, el cual sirve como punto de acoplamiento para la herramienta.El diseño contempla la posibilidad de realizar cambios del marcador de manera sencilla, garantizando versatilidad durante la operación.
+
+Posteriormente, la herramienta fue fabricada mediante impresión 3D utilizando material PLA. En el interior del soporte del marcador se incorporó un resorte, que permite un margen de tolerancia al momento de ejecutar el dibujo, evitando daños o presiones excesivas sobre la superficie.
+
+Cabe resaltar que, durante el desarrollo del proyecto, inicialmente se trabajó en una herramienta diseñada por dos integrantes del equipo; sin embargo, posteriormente se integró un tercer miembro, quien ya contaba con su propia herramienta diseñada.A continuación, se presenta el desarrollo de ambas propuestas, destacando que la herramienta seleccionada como definitiva para el proyecto fue la diseñada por el tercer integrante.
