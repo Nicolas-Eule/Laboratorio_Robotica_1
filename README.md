@@ -93,3 +93,19 @@ Se diseñó una caja que simula un pastel, con dimensiones de 15 cm × 15 cm × 
 
 
 ## Diagrama de flujo de acciones del robot
+
+
+
+## Video de la práctica  
+Se muestra a continuación el video de la aplicación realizada en **RobotStudio**, efectuada en el **laboratorio LabSIR**.  
+
+<p align="center">
+  <!-- Miniatura de YouTube con enlace al video -->
+  <a href="https://youtu.be/jfjOX9DQJSQ" target="_blank">
+    <img src="https://img.youtube.com/vi/jfjOX9DQJSQ/hqdefault.jpg" alt="Ver la simulación y ejecución" width="600">
+  </a>
+  <br>
+  <em>🔗 Haz clic en la imagen para ver el video</em>
+</p>
+
+
