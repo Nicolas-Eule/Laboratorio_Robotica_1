@@ -4,6 +4,8 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=140&color=0:04041A,50:14213D,100:0A4D68&text=Laboratorio%20Rob%C3%B3tica%201&fontColor=E0FBFC&fontAlign=50&fontAlignY=30&desc=Decoraci%C3%B3n%20de%20Tortas%20Virtuales%20%E2%80%A2%20ABB%20IRB%20140%20%E2%80%A2%20RAPID&descAlign=50&descAlignY=60" alt="header" />
 </p>
 
+<h1 align="center">🤖 LABORATORIO ROBÓTICA 1 – DECORACIÓN DE TORTAS VIRTUALES</h1>
+
 <p align="center">
   <img src="https://img.shields.io/badge/RAPID-ABB%20IRC5-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/RobotStudio-2025-blue?style=for-the-badge" />
@@ -17,6 +19,29 @@
 
 ---
 
+## 🧑‍🚀 Equipo
+
+<!-- 🔹 PRIMERO: Animaciones con los NOMBRES (estilo tecnológico) -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1200&duration=3200&color=00E5FF&center=true&vCenter=true&width=1000&repeat=false&lines=Integrantes%3A;Jorge+Nicol%C3%A1s+Garz%C3%B3n+Acevedo+%E2%80%94+jngarzona%40unal.du.co;Johan+Camilo+Pati%C3%B1o+Mogoll%C3%B3n+%E2%80%94+jopatinom%40unal.edu.co;Gabriel+Eduardo+Bojaca+Munar+%E2%80%94+gbojaca%40unal.edu.co" alt="Integrantes animados">
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=800&duration=3000&color=7F5AF0&center=true&vCenter=true&width=1000&repeat=false&lines=Docentes%3A;Manuel+Felipe+Carranza+Montenegro+%E2%80%94+mcarranza%40unal.edu.co;Pedro+Fabi%C3%A1n+C%C3%A1rdenas+Herrera+%E2%80%94+pfcardenash%40unal.edu.co" alt="Docentes animados">
+</p>
+
+<!-- 🔹 DESPUÉS: La descripción (lista) de integrantes y docentes -->
+**Integrantes**  
+- Jorge Nicolás Garzón Acevedo — jngarzona@unal.du.co  
+- Johan Camilo Patiño Mogollón — jopatinom@unal.edu.co  
+- Gabriel Eduardo Bojaca Munar — gbojaca@unal.edu.co  
+
+**Docentes**  
+- Manuel Felipe Carranza Montenegro — mcarranza@unal.edu.co  
+- Pedro Fabián Cárdenas Herrera — pfcardenash@unal.edu.co
+
+---
+
 ### 🛰️ Descripción general
 
 Este repositorio implementa el **Laboratorio No. 1** de *Robótica Industrial 2025-II*: automatización de la **decoración de una torta virtual** con un robot **ABB IRB 140**, programado en **RAPID** y simulado en **RobotStudio**.  
@@ -26,5 +51,3 @@ Incluye trayectorias (MOVJ, MOVL, MOVC), calibración de herramienta (TCP/Toolda
 
 ## ⚙️ Estructura
 
-
----
