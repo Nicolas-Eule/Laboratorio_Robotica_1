@@ -124,6 +124,20 @@ Para la ejecución del procedimiento se desarrolló el código de funcionamiento
 ## Plano de planta de los elementos de trabajo
 El plano de planta se encuentra en el siguiente enlace. [Hacer clic aquí para ver el plano de planta en RobotStudio](https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Plano_de_planta.png)
 
+## Simulación de la práctiva
+Se muestra la implementacion de las dos herramientas en RobotStudio
+
+Primera herramienta desarrollada
+<p align="center">
+  <img src="https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Screenshot%202025-10-05%20201650.png" alt="Flujo de proceso" width="500">
+</p>
+
+Segunda herramienta la cual es fue la definitiva a trabajar
+<p align="center">
+  <img src="https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Screenshot%202025-10-05%20201934.png" alt="Flujo de proceso" width="500">
+</p>
+
+
 
 ## Video de la práctica  
 Se muestra a continuación el video de la aplicación realizada en **RobotStudio**, efectuada en el **laboratorio LabSIR**.  
