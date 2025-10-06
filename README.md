@@ -26,3 +26,36 @@ Incluye trayectorias (MOVJ, MOVL, MOVC), calibración de herramienta (TCP/Toolda
 
 ## ⚙️ Estructura
 
+
+---
+
+## 🧠 Lógica de operación (fragmento ilustrativo RAPID)
+
+```rapid
+MODULE Module1
+  PROC main()
+    TPErase;
+    TPWrite "Iniciando rutina";
+    Reset Conveyor_FWD;  ! Asegurar banda apagada
+
+    WHILE TRUE DO
+      IF DI_01 = 1 THEN
+        TPWrite "Decorando pastel virtual";
+        Path_10;
+        SetDO LuzIndicadora, 1;
+        WaitTime 2;
+        ResetDO LuzIndicadora;
+      ENDIF
+
+      IF DI_02 = 1 THEN
+        TPWrite "Modo mantenimiento";
+        MoveAbsJ home, v500, fine, tool0;
+      ENDIF
+    ENDWHILE
+  ENDPROC
+ENDMODULE
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TU_USUARIO_GITHUB/TU_USUARIO_GITHUB/output/github-contribution-grid-snake.svg" alt="snake">
+</p>
