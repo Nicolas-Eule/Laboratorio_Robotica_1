@@ -75,7 +75,7 @@ El proyecto consiste en realizar el dibujo de los nombres de los integrantes del
 
 
 ## Descripción de la solución planteada
-Para la decoración del pastel se propone el uso de una herramienta capaz de sostener un marcador borrable, la cual permitirá realizar los trazos solicitados —nombres y logotipo— sobre una caja de madera con superficie superior de tablero.
+Para la decoración del pastel se propone el uso de una herramienta capaz de sostener un marcador borrable, la cual permitirá realizar los trazos solicitados —nombres y logotipo— sobre una caja de madera con superficie superior de acrílico.
 
 La decoración consiste en la ejecución de trayectorias previamente diseñadas en la aplicación de simulación RobotStudio de ABB, donde se configuran tanto las trayectorias como el comportamiento dinámico del robot (posición y velocidad).Asimismo, se implementa una posición de mantenimiento en la que el robot se aleja del área de dibujo, permitiendo realizar de manera segura cambios o reparaciones en la herramienta de trabajo.
 
@@ -87,3 +87,9 @@ La herramienta de trabajo fue diseñada en la aplicación de modelado 3D Autodes
 Posteriormente, la herramienta fue fabricada mediante impresión 3D utilizando material PLA. En el interior del soporte del marcador se incorporó un resorte, que permite un margen de tolerancia al momento de ejecutar el dibujo, evitando daños o presiones excesivas sobre la superficie.
 
 Cabe resaltar que, durante el desarrollo del proyecto, inicialmente se trabajó en una herramienta diseñada por dos integrantes del equipo; sin embargo, posteriormente se integró un tercer miembro, quien ya contaba con su propia herramienta diseñada.A continuación, se presenta el desarrollo de ambas propuestas, destacando que la herramienta seleccionada como definitiva para el proyecto fue la diseñada por el tercer integrante.
+
+### Pastel - superficie de dibujo
+Se diseñó una caja que simula un pastel, con dimensiones de 15 cm × 15 cm × 15 cm, su caras laterales e inferior fueron construidas en madera, mientras que la cara superior se elaboró en acrílico, sirviendo como superficie de dibujo.En el interior de la caja se incorporó un contrapeso, con el fin de evitar balanceos o movimientos indeseados durante la ejecución del trazado por parte del robot.
+
+
+## Diagrama de flujo de acciones del robot
