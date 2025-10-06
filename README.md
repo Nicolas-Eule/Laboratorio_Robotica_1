@@ -137,8 +137,21 @@ Se diseñó una caja que simula un pastel, con dimensiones de 15 cm × 15 cm × 
 
 
 ## Diagrama de flujo de acciones del robot
+Se presenta el diagrama de flujo del proceso desarrollado para garantizar el cumplimiento de los requerimientos del proyecto.
+<p align="center">
+  <img src="https://github.com/Nicolas-Eule/Laboratorio_Robotica_1/blob/main/assets/img/Flujo%20de%20proceso.drawio.png" alt="Flujo de proceso" width="500">
+</p>
 
+## Descripción de las funciones utilizadas 
+Para efectuar correctamente el diagrama de flujo de procedimiento previamente mostrado se hacen uso de funciones de condicionales y movimiento.
+### Funciones de movimiento
+<ul style="list-style-type: square;">
+  <li>MoveJ: El robot se mueve de forma curva, calculando internamente los ángulos de cada articulación para llegar al punto final lo más rápido posible, sin preocuparse de seguir una línea recta       en el espacio donde la herramienta del robot hace una trayectoria curvada o arqueada, porque cada eje gira a distinta velocidad para optimizar el movimiento. </li>
+  <li>MoveL: El robot mueve su herramienta en línea recta desde el punto actual hasta el punto destino donde la punta del robot (el TCP) sigue una trayectoria recta en el espacio cartesiano (XYZ)</li>
+</ul>
 
+### Funciones condicionales
+Para las funciones de 
 
 ## Video de la práctica  
 Se muestra a continuación el video de la aplicación realizada en **RobotStudio**, efectuada en el **laboratorio LabSIR**.  
@@ -148,8 +161,4 @@ Se muestra a continuación el video de la aplicación realizada en **RobotStudio
   <a href="https://youtu.be/jfjOX9DQJSQ" target="_blank">
     <img src="https://img.youtube.com/vi/jfjOX9DQJSQ/hqdefault.jpg" alt="Ver la simulación y ejecución" width="600">
   </a>
-  <br>
-  <em>🔗 Haz clic en la imagen para ver el video</em>
-</p>
-
 
