@@ -10,18 +10,5 @@
 
 ### 🛰️ Descripción general
 
-Este repositorio contiene el desarrollo del **Laboratorio No. 1** de la asignatura *Robótica Industrial 2025-II*.  
-El proyecto propone automatizar la **decoración de una torta virtual** utilizando un robot **ABB IRB 140**, programado en lenguaje **RAPID** y simulado en **RobotStudio**.  
-
-El sistema combina:
-- Control de trayectorias (MOVJ, MOVL, MOVC)  
-- Calibración de herramienta (TCP y Tooldata)  
-- Creación de *workobjects* y orientación cartesiana  
-- Manejo de **entradas/salidas digitales** para controlar luces y bandas transportadoras  
-
-> 💡 Inspirado en procesos industriales de repostería robotizada.
-
----
-
-### ⚙️ Arquitectura del repositorio
-
+Este repositorio implementa el **Laboratorio No. 1** de *Robótica Industrial 2025-II*: automatización de la **decoración de una torta virtual** con un robot **ABB IRB 140**, programado en **RAPID** y simulado en **RobotStudio**.  
+Incluye trayectorias (MOVJ, MOVL, MOVC), calibración de herramienta (TCP/Tooldata), *workobjects* y control de **IO digitales** (luz indicadora y banda transportadora).
